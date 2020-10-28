@@ -1,0 +1,117 @@
+body{
+	background-color:#86898b;
+}
+#add {
+	margin-left: 25%;
+	margin-bottom: 1%;
+	border-radius: 24px;
+	background: #86898b;
+	box-shadow:  -21px -21px 33px #6a6c6e, 
+			 21px 21px 33px #a2a6a8;
+	border : none;
+	color: #323233;
+}
+.album .py-5 .bg-light {
+background-color:pink ;
+}
+header h1{
+	border-radius: 24px;
+	background: #86898b;
+	box-shadow:  -21px -21px 33px #6a6c6e, 
+             21px 21px 33px #a2a6a8;
+	color:#323233;
+	margin:40px auto ;
+	font-weight:300;
+	width:25%;
+	height : 70px;
+	text-align:center;
+	padding-top : 10px;
+}
+#close {
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 5%;
+	border-radius: 24px;
+}
+ .our-team-main {
+	border-radius: 24px;
+	background: #86898b;
+	box-shadow:  -21px -21px 33px #6a6c6e, 
+             21px 21px 33px #a2a6a8;
+	width:100%;
+	height:250px;
+	border-bottom:5px #323233 solid;
+	text-align:center;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+.our-team-main img {
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 100px;
+}
+ .our-team-main h3 {
+	font-size:20px;
+	font-weight:700;
+}
+.our-team-main p{
+	margin-bottom:0;
+}
+.team-back{
+	border-radius: 24px;
+	background: linear-gradient(315deg, #797b7d,pink);
+	box-shadow:  -21px -21px 33px #6a6c6e, 
+             21px 21px 33px #a2a6a8;
+	width:100%;
+	height:250px;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;	
+}
+.team-front{
+	border-radius: 24px;
+	background: #86898b;
+	box-shadow:  -21px -21px 33px #6a6c6e, 
+             21px 21px 33px #a2a6a8;
+	width:100%;
+	height:250px;
+	position:relative;
+	z-index:10;
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+.our-team-main:hover .team-front{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+.our-team-main:hover{
+	border-color:#777;
+	transition:0.5s;
+}
+.buttonCreate a {
+	text-align: center;
+	text-decoration: none;
+	list-style-type:none;	
+}
+.modal-content {
+	border-radius: 24px;
+	background: linear-gradient(225deg, #A8ABE2, #c6c7c7);
+	
+}
+.modal-open .container-fluid, .modal-open  .container {
+	-webkit-filter: blur(5px) grayscale(90%);
+}
+@media (max-width : 1024px){
+	header h1{
+		width: 50%;
+	}
+}
+@media (max-width : 500px){
+	header h1{
+		width: 95%;
+	}
+}
